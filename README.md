@@ -1,5 +1,5 @@
 # NBA Player Predictions
-Predict the future of NBA players' careers.
+Predict the future of NBA players' careers. Full project published on [Towards Data Science](https://towardsdatascience.com/the-nbas-2023-mvp-is-ff78deb85122).
 
 The general concept for this project is that a player's past performance and age are predictive of their future performance. Barring injury, a player's next season will usually be similar to their most recent season. With this in mind, it's possible to use statistics of past seasons to predict 1 season into the future. The output prediction can then be used as an input to predict 2 seasons into the future, which can then be used to predict 3 seasons into the future, etc. The model created in this project predicts the following 14 features: minutes played, two point percentage, two point attempts, three point percentage, three point attempts, free throw percentage, free throw attempts, defensive rebounds, offensive rebounds, assists, steals, blocks, turnovers, and personal fouls. Counting stats are predicted per 36 minutes then combined with predictions of minutes played to generate predictions of per game averages.
 
